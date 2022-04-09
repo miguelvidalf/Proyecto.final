@@ -347,7 +347,7 @@
     color: #FFFFFF;
     background: var(--primary);
     font-size: 22px;
-    transition: .5s;
+    transition:none;
 }
 
 .team-carousel .owl-nav .owl-prev:hover,
@@ -356,7 +356,7 @@
 }
 
 .team-item img {
-    transition: .5s;
+    transition:none;
 }
 
 .team-item:hover img {
@@ -373,7 +373,7 @@
     align-items: center;
     justify-content: center;
     background: rgba(122, 183, 48, .8);
-    transition: .5s;
+    transition: none;
     opacity: 0;
 }
 
