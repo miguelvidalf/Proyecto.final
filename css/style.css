@@ -456,3 +456,17 @@
 .blog-item a:hover i::after {
     width: 50px;
 }
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+  }
+  th, td {
+    background-color: #cce7d2;
+  }
+
+button{
+    background-color: #7AB730;
+    color: #cce7d2;
+}
