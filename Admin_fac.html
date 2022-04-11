@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PET SHOP - Pet Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Template Stylesheet -->
+    <link href="css/fac.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="invoiceholder">
+  <div id="invoice" class="effect2">
+    
+    <div id="invoice-top">
+      <a href="index.html" class="navbar-brand ms-lg-5">
+        <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
+      </a>
+      <div class="title">
+        <h2>Factura #<span class="invoiceVal invoice_num">tst-inv-23</span></h2>
+        <p>Fecha de factura:<span id="invoice_date">04 Abri 2022</span><br>
+          Fecha GL:<span id="gl_date">6 Abril 2022</span>
+        </p>
+      </div><!--End Title-->
+    </div><!--End InvoiceTop-->
+
+
+    
+    <div id="invoice-mid">   
+      <div id="message">
+        <h2>Hola Andrea De Asmundis</h2>
+        <p>Se crea una factura con el número de factura #<span id="invoice_num">tst-inv-23</span> se crea para <span id="supplier_name">Pet Shop</span> que coincide al 100% con el PO y está a la espera de su aprobación. <a href="javascript:void(0);">Click here</a> para iniciar sesión y ver la factura.</p>
+      </div>
+       <div class="cta-group mobile-btn-group">
+            <a href="javascript:void(0);" class="btn-primary">Approve</a>
+            <a href="javascript:void(0);" class="btn-default">Reject</a>
+        </div> 
+        <div class="clearfix">
+            <div class="col-left">
+                <div class="clientlogo"><img src="https://cdn3.iconfinder.com/data/icons/daily-sales/512/Sale-card-address-512.png" alt="Sup" /></div>
+                <div class="clientinfo">
+                    <h2 id="supplier">Pet Shop</h2>
+                    <p><span id="address">VIA SAVIGLIANO, 48</span><br><span id="city">RORETO DI CHERASCO</span><br><span id="country">Id</span> - <span id="zip">12062</span><br><span id="tax_num">555-555-5555</span><br></p>
+                </div>
+            </div>
+            <div class="col-right">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><span>Total de la factura</span><label id="invoice_total">$15.000</label></td>
+                            <td><span>Moneda</span><label id="currency">CLP</label></td>
+                        </tr>
+                        <tr>
+                            <td><span>Plazo de pago</span><label id="payment_term">10 Dias</label></td>
+                            <td><span>Tipo de factura</span><label id="invoice_type">De Venta</label></td>
+                        </tr>
+                        <tr><td colspan="2"><span>Nota</span>#<label id="note">Nada</label></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>       
+    </div><!--End Invoice Mid-->
+    
+    <div id="invoice-bot">
+      
+      <div id="table">
+        <table class="table-main">
+          <thead>    
+              <tr class="tabletitle">
+                <th>Tipo</th>
+                <th>Descripción</th>
+                <th>Cantidad</th>
+                <th>Precio unitario</th>
+                <th>Importe imponible</th>
+                <th>Código fiscal</th>
+                <th>%</th>
+                <th>Iva</th>
+                <th>Total</th>
+              </tr>
+          </thead>
+          <tr class="list-item">
+            <td data-label="Type" class="tableitem">Bandanas - patrón Cachemira</td>
+            <td data-label="Description" class="tableitem">N/D</td>
+            <td data-label="Quantity" class="tableitem">2</td>
+            <td data-label="Unit Price" class="tableitem">$2.500</td>
+            <td data-label="Taxable Amount" class="tableitem">0</td>
+            <td data-label="Tax Code" class="tableitem">DP20</td>
+            <td data-label="%" class="tableitem">0</td>
+            <td data-label="Tax Amount" class="tableitem">4%</td>
+<td data-label="Total" class="tableitem">$5.950</td>
+          </tr>
+            <tr class="list-item total-row">
+                <th colspan="9" class="tableitem">Grand Total</th>
+                <td data-label="Grand Total" class="tableitem">$5.950</td>
+            </tr>
+        </table>
+      </div><!--End Table-->
+      <div class="cta-group">
+        <a href="javascript:void(0);" class="btn-primary">Aceptar</a>
+        <a href="javascript:void(0);" class="btn-default">Cancelar</a>
+    </div> 
+      
+    </div><!--End InvoiceBot-->
+    <footer>
+      <div id="legalcopy" class="clearfix">
+        <p class="col-right">Our mailing address is:
+            <span class="email"><a href="mailto:supplier.portal@almonature.com">supplier.portal@almonature.com</a></span>
+        </p>
+      </div>
+    </footer>
+  </div><!--End Invoice-->
+</div><!-- End Invoice Holder-->
+  
+  
+
+</body>
