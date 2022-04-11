@@ -622,3 +622,95 @@ button{
     background-color: #7AB730;
     color: #cce7d2;
 }
+/**/
+/** My Account CSS START **/
+/**/
+.my-account {
+    position: relative;
+    padding: 30px 0;
+}
+
+.my-account .nav.nav-pills .nav-link {
+    padding: 10px 15px;
+    color: #353535;
+    background: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid #dddddd;
+    transition: all .3s;
+}
+
+.my-account .nav.nav-pills .nav-link:last-child {
+    border-bottom: none;
+}
+
+.my-account .nav.nav-pills .nav-link:hover,
+.my-account .nav.nav-pills .nav-link.active {
+    color: #ffffff;
+    background: #7ab730;
+}
+
+.my-account .nav.nav-pills .nav-link i {
+    margin-right: 5px;
+}
+
+.my-account .tab-content {
+    padding: 30px;
+    background: #ffffff;
+}
+
+.my-account .tab-content .table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.my-account .tab-content .table .thead-dark th {
+    text-align: center;
+    color: #353535;
+    background: #ffffff;
+    border-color: #dddddd;
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+.my-account .tab-content .table td {
+    vertical-align: middle;
+}
+
+/**/
+/** My Account CSS END **/
+/**/
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+@media(min-width: 992px) {
+    .container-fluid {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+}
+.form-control,
+.custom-select {
+    width: 100%;
+    height: 35px;
+    padding: 0 15px;
+    color: #999999;
+    border: 1px solid #b2f164;
+    margin-bottom: 15px
+}
+.btn {
+    color: #7ab730;
+
+    border: 1px solid #7ab730;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+
+    box-shadow: none;
+}
+
